@@ -40,4 +40,12 @@ class PreferencesUser{
     _prefs.setString('name', value);
   }
 
+  get lastPage {
+    return _prefs.getString('lastPage')??'home';
+  }
+
+  set lastPage(String value){
+    _prefs.setString('lastPage', value);
+  }
+
 }

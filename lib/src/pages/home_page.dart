@@ -12,6 +12,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     
     //prefs.initPrefs();
+    prefs.lastPage = HomePage.routeName;
 
     return Scaffold(
       appBar: AppBar(

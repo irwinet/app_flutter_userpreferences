@@ -23,6 +23,7 @@ class _SettingsPageState extends State<SettingsPage> {
     // TODO: implement initState
     super.initState();
     //loadPref();
+    prefs.lastPage = SettingsPage.routeName;
     _gender = prefs.gender;
     _secondaryColor = prefs.secondaryColor;
 
